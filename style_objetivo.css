@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+body{
+    background-color: white;
+    background-image: url(fotos/fundo.png); /* Substitua pelo caminho da sua imagem */
+    background-position: flex-end; /* Centraliza a imagem */
+    height: 101vh; /* Altura da viewport */
+    background-size: 100%;
+}
+
+header{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    display: flex;
+    justify-content: space-between; /* Alinha itens com espaço entre eles */
+    align-items: center;           /* Alinha itens verticalmente ao centro */
+    padding: 15px;                 /* Adiciona algum espaçamento ao redor */
+    background-color: #f8f8f8;     /* Cor de fundo para o header */
+    width: 100%;
+    height: 60px;      /* Define a altura do header */
+    position: fixed;   /* Header fixo no topo */
+    top: 0;
+    left: 0;
+    z-index: 1000;     /* Certifica-se de que o header está acima de outros elementos */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destaque */
+}
+
+header img{
+    width: 50%;
+    height: auto;
+}
+
+.link {
+    display: flex;
+    gap: 40px;/* Espaço entre os links */
+    width: 100%;
+    margin-right: 6rem;
+    align-items: center;
+    justify-content: flex-end; /* Empurra os links para o canto direito */
+}
+
+.link a {
+    color: black;
+    text-decoration: none; 
+    transition: all 0.5s;
+}
+
+.link a:hover {
+    color: #007bff;
+    text-decoration: none;
+}
+
+main{
+    padding-top: 110px;  /* Adiciona espaço para compensar a altura do header */
+}
+
+.titulo{
+    letter-spacing: 2px;
+    margin-left: 5.5rem;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+}
+
+#titulo_objt{
+    margin-top: -2rem;
+    color: #007bff;
+}
+
+.footer_main{
+    justify-content: be;
+}
+
+.box{
+    padding: 20px; /* Espaçamento interno */
+    max-width: 80%; /* Limita a largura máxima */
+    background-color: rgba(0, 0, 0, 0); /* Fundo com transparência */
+    border-color: #007bff;
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.box:hover{
+    box-shadow: 0 0 10px rgba(0,123, 255, 0.8);
+}
+
+.box h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 6.5rem;
+}
+
+p{
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+}
+
+#main_container{
+    margin-top: 1rem;
+    margin-left: 5.5rem;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+}
+
+.image{
+    display: flex;
+    justify-content: flex-end; /* Alinha horizontalmente */
+    align-items: flex-end; /* Alinha verticalmente */
+    height: 100%; /* Altura do contêiner */
+    margin-right: 8rem;
+}
+
+.image img{
+    width: 80%;
+    height: auto;
+}
+
+
+.paragrafo{
+    text-align: center;
+}
